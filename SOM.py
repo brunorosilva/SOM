@@ -19,7 +19,7 @@ def mse(image_a, image_b):
     return err
 
 
-class SOM(object):
+class SOM():
 
     def __init__(self, rows, columns, dimensions, epochs, number_of_input_vectors, alpha, sigma):
 
